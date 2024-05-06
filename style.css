@@ -1,0 +1,107 @@
+.titolo{
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	color:rgb(133, 170, 94)
+}
+
+.collegamenti{
+	background-color: rgb(133, 170, 94);
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+
+.sottotitoli{
+	margin-top: -40px;
+	font-size: 25px;
+	text-overflow: initial;
+	color: rgb(133, 170, 94);
+	text-align: center;
+}
+
+.logo{
+align-items: center; 
+margin-bottom: 20px;
+width: 100px;
+height: auto;
+  }
+
+
+
+.paragrafo{
+	color: black;
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.titolipiccoli{
+	color: rgb(133, 170, 94);
+	font-size: medium;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+.carousel-container {
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .carousel-track {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-track img {
+	width: 47%;
+	min-width: 47%;
+	object-fit: cover;
+  }
+  
+
+  @keyframes scrollLinearLeftRight {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }
+  
+  .carousel-track {
+	animation: scrollLinearLeftRight 10s linear infinite;
+	width: 50%;
+  }
+  
+
+  .navbar {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(133, 170, 94);
+  }
+  
+  .navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  .navbar li {
+	margin-right: 20px;
+  }
+  
+  .navbar a {
+	color: #fff;
+	text-decoration:wavy;
+	padding: 10px;
+  }
+  
+  .navbar a:hover {
+	color: #fff700; /* Cambia colore al passaggio del mouse */
+  }
+  
+
+  
