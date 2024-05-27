@@ -1,5 +1,5 @@
 .titolo{
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'Times New Roman', Times, serif;
 	text-align: center;
 	color:rgb(133, 170, 94)
@@ -18,18 +18,14 @@
 	margin-top: -40px;
 	font-size: 25px;
 	text-overflow: initial;
-	color: rgb(133, 170, 94);
+	color: rgb(164, 195, 98);
 	text-align: center;
 }
 
-.logo{
-align-items: center; 
-margin-bottom: 20px;
-width: 100px;
-height: auto;
-  }
 
-
+.centro{
+	text-align: center;
+}
 
 .paragrafo{
 	color: black;
@@ -41,7 +37,7 @@ height: auto;
 	color: rgb(133, 170, 94);
 	font-size: medium;
 	text-align: center;
-	margin-bottom: -20px;
+	
 }
 
 .carousel-container {
@@ -75,11 +71,18 @@ height: auto;
 	width: 50%;
   }
   
-
   .navbar {
 	display: flex;
-	justify-content: center;
-	background-color: rgb(133, 170, 94);
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+	padding: 10px 50px; /* Aggiungi padding per spaziatura interna */
+  }
+  
+  .logo img {
+	height: 90px;
+	align-content: center;
+
   }
   
   .navbar ul {
@@ -90,18 +93,30 @@ height: auto;
   }
   
   .navbar li {
-	margin-right: 20px;
+	margin-right: 15px;
   }
   
   .navbar a {
-	color: #fff;
-	text-decoration:wavy;
+	color:rgb(133, 170, 94);
+	text-decoration:dotted; /* Cambia il tipo di decorazione */
 	padding: 10px;
   }
   
   .navbar a:hover {
-	color: #fff700; /* Cambia colore al passaggio del mouse */
+	color: #ff0080; /* Cambia colore al passaggio del mouse */
+  }
+
+  /* Stile per le icone */
+a {
+	display: inline-block;
+	float: inherit;
+	margin: 0 10px; 
+	transition: transform 0.3s ease; 
+  }
+  
+ 
+  a:hover {
+	transform: scale(1.2); 
   }
   
 
-  
