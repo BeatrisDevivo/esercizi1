@@ -153,7 +153,7 @@ gap: 20px;
 /* Classe per la sezione con sfondo immagine */
 .sfondo-chisiamo {
   position: relative;
-  background-image: url('/Users/beatricedevivo/Desktop/immagini sito/382241909_1013904396724597_3692456457652129059_n.jpg');
+  background-image: url('immagine2.jpg');
   background-size: cover; /* Adatta l'immagine */
   background-position: center; /* Posiziona l'immagine al centro */
   background-attachment: fixed; /* Effetto Parallax */
