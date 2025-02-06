@@ -597,13 +597,13 @@ gap: 20px;
   overflow: hidden; /* Nasconde il contenuto eccedente */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra intorno agli elementi */
   transition: transform 0.2s ease; /* Transizione per l'effetto hover */
-  width: 300px; /* Larghezza dell'elemento galleria */
-  height: 300px; /* Altezza dell'elemento galleria */
+  width: 100px; /* Larghezza dell'elemento galleria */
+  height: auto; /* Altezza dell'elemento galleria */
 }
 
 .gallery-item img {
-  width: 300px; /* Larghezza fissa dell'immagine */
-  height: 300px; /* Altezza fissa dell'immagine */
+  width: 100px; /* Larghezza fissa dell'immagine */
+  height: autopx; /* Altezza fissa dell'immagine */
   object-fit: cover; /* Adatta l'immagine al contenitore */
 }
 
