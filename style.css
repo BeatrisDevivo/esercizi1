@@ -13,14 +13,14 @@
 
 
   .testo {
-	font-size: 18px;
+	font-size: 1.2rem;
 	color: #444;
 	line-height: 1.6;
 	font-family:  "DM Sans", serif;
 	text-align: center;
   }
   .sottotitoli {
-	font-size: 22px;
+	font-size: 1.5rem;
 	color: rgb(72, 94, 77);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -28,7 +28,7 @@
 	text-align: center;
   }
   .collegamenti {
-	font-size: 18px;
+	font-size: 1.2rem;
 	color: rgb(72, 94, 77);
 	text-decoration: none;
 	font-weight: bold;
@@ -86,7 +86,7 @@
   
  @media screen and (max-width: 768px) {
   .centro {
-    padding: 5px 0; /* Riduce lo spazio SOLO su mobile */
+    padding: 5px 0; 
   }
 
   header {
