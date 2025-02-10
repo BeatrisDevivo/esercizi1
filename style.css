@@ -84,7 +84,16 @@
 	}
   }
   
-  
+ @media screen and (max-width: 768px) {
+  .centro {
+    padding: 5px 0; /* Riduce lo spazio SOLO su mobile */
+  }
+
+  header {
+    padding: 5px 0;
+  }
+}
+ 
   
 
   
