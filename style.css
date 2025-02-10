@@ -80,7 +80,7 @@
   
   @media screen and (max-width: 768px) {
 	.logo img {
-	  width: 350px;
+	  width: 250px;
 	}
   }
   
@@ -129,7 +129,7 @@
 	background: none;
 	border: none;
 	cursor: pointer;
-	color: rgb(0, 0, 0);
+	color: rgb(72,94,77);
   }
   
   .navigazione-side {
@@ -233,6 +233,7 @@
   @media screen and (min-width: 769px) {
 	.burger-container {
 	  display: none;
+	  right: 30px;
 	}
   }
   
