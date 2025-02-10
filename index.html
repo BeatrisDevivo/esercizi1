@@ -1,281 +1,228 @@
-<!DOCTYPE html> <!--sito html-->
-<html lang="it"> <!--lingua principale del sito-->
+<!DOCTYPE html>
+<html lang="it">
 
-<head> <!--informazioni non grafiche-->
-
+<head>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visualizzazione responsive che lo rende visibile anche in altri dispositivi-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-<meta name="description" content="Agriturismo La Fucina">
-<meta name="keywords" content="Prenotazioni, informazioni agriturismo, stanze, alloggio, ristorante">
-<meta name="author" content="Beatrice Devivo">
-<!--informazioni di ricerca-->
-
-  <title>Agriturismo La Fucina</title> 
-
-  <link rel="icon" href="/imgs/favicon.svg" type="image/svg+xml">
-
-  <!--aggiungere icona che compare nella finestra di ricerca (favicon) \ fatto-->
-
-
-   <link rel="stylesheet" href="style.css">
-   <script src="script.js" defer></script>
+  <meta name="description" content="Agriturismo La Fucina - Vivi un'esperienza autentica nella natura, tra relax e buon cibo.">
+  <meta name="keywords" content="Prenotazioni, informazioni agriturismo, stanze, alloggio, ristorante, prodotti bio, turismo rurale">
+  <meta name="author" content="Beatrice Devivo">
   
-  <!--collegamenti esterni con CSS e JavaScript-->
+  <link rel="icon" href="imgs/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 
+  <title>Agriturismo La Fucina</title>
+  
 </head>
 
 
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+	</style>
+
+
+
+
 <body>
-<header> <!--per i due menù, uno computer e uno burger per adattamento a dispositivi più piccoli come smartphone-->
-
-    
-   <div class="centro">
-  <div class="logo img">
-        <img src="/imgs/logofucina.svg"logo"></div></div>
-
-        <div class="sottotitoli">
-  <h3>ᴇᴀᴛ ᴀɴᴅ ʙʀᴇᴀᴛʜ</h3>
-</div>
-
-
-
-
 <header>
-  <!-- Burger button -->
-  <div class="burger-container">
-    <button class="burger-menu">☰</button>
-  </div>
-
-  <!-- Menu orizzontale -->
-  <div class="navigazione">
-    <div class="container">
-      <nav>
-        <ul>
-          <li><a href="#chisiamo">Chi siamo</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#dovesiamo">Dove Trovarci</a></li>
-          <li><a href="#comecontattarci">Contatti</a></li>
-          <li><a href="javascript:void(0)" id="carrelloBtn"><img src="/imgs/carrello.svg" alt="Carrello" /></a></li>
-          
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-  <div class="carrello-side">
-    <ul>
-      <li><a href="#carrello">Riepilogo</a></li>
-      <li><a href="#checkout">Procedi al checkout</a></li>
-      <!-- Aggiungi altri elementi del carrello se necessario -->
-    </ul>
-  </div>
-
-  <!-- Menu laterale -->
-  <div class="navigazione-side">
-    <ul>
-      <li><a href="#chisiamo">Chi siamo</a></li>
-      <li><a href="#shop">Shop</a></li>
-      <li><a href="#dovesiamo">Dove Trovarci</a></li>
-      <li><a href="#comecontattarci">Contatti</a></li>
-      <li><a href="javascript:void(0)" id="carrelloBtn"><img src="/imgs/carrello.svg" alt="Carrello" /></a></li>
-    </ul>
-  </div>
-</header>
-
-</header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="gallery" class="content-box">
-  <div class="image-container">
-    <img src="/imgs/immagine1.jpg" alt="Immagine agriturismo">
-  </div>
-  <div class="text">
-    <h1>Benvenuti all'Agriturismo</h1>
-    <p>Scopri un’oasi di tranquillità immersa nel cuore della natura, dove ogni momento è dedicato al relax e al piacere dei sensi. Vivrai esperienze uniche, lontano dal ritmo frenetico della città, tra paesaggi rigeneranti e sapori autentici. Accoglienti spazi confortevoli ti avvolgeranno in un’atmosfera di puro benessere, mentre la nostra cucina celebra la tradizione locale con piatti genuini preparati con ingredienti freschi e selezionati.</p>
-  </div>
-</section>
-
-
-
-
-
+	<div class="centro">
+	  <div class="logo">
+		<img src="imgs/logofucina.svg" alt="Logo Agriturismo">
+	  </div>
+	  <div class="sottotitoli">
+		<h3 class="sottotitoli">EAT AND BREATH</h3>
+	  </div>
+	</div>
+  </header>
 
   
-<!--varie suddivisioni\navigazione-->
-<div class="titolipiccoli">
-  <h1>ᴄʜɪ sɪᴀᴍᴏ</h1></div>
-    
-<div class="sfondo-chisiamo">
-
-
-	<div class="text1">
-    <h1 id="chisiamo"></h1>
-
-    <p>Dal momento della nostra fondazione nel 2014, ci siamo impegnati a creare uno spazio di tranquillità dove la natura, gli animali e l'aria fresca si fondono armoniosamente. Il nostro obiettivo principale è quello di offrire ai nostri ospiti qualità e freschezza in ogni aspetto della loro esperienza presso di noi.</p>
+  <nav>
+	<div class="navigazione">
+	  <ul>
+		<li><a href="#chisiamo" class="collegamenti">Chi siamo</a></li>
+		<li><a href="#shop" class="collegamenti">Shop</a></li>
+		<li><a href="#dovesiamo" class="collegamenti">Dove Trovarci</a></li>
+		<li><a href="#comecontattarci" class="collegamenti">Contatti</a></li>
+		<li><a href="javascript:void(0)" id="carrelloBtn"><img src="imgs/carrello.svg" alt="Carrello"></a></li>
+	  </ul>
+	</div>
   
-    <p>Siamo fieri di offrire un rifugio lontano dal trambusto della vita quotidiana, dove puoi rigenerarti e riconnetterti con la bellezza e la serenità che solo la campagna può offrire.</p>
-    <p>Vieni a trovarci e lasciati avvolgere dall'autentica atmosfera dell'Agriturismo, dove la semplicità e l'amore per la vita contadina si fondono per creare ricordi indelebili.</p>
-    <br>
-    <p> Leggi le nostre recensioni per farti ispirare o lasciacene una per aiutarci a migliorare!</p>
-
-    <a href="https://www.tripadvisor.it/Restaurant_Review-g3671034-d3982629-Reviews-La_Fucina-Vigliano_Biellese_Province_of_Biella_Piedmont.html" target="_blank" class="tripadvisor-link">
-      <img src="/imgs/tripadvisor.svg" alt="TripAdvisor" style="width: 150px; height: 150px;" /> <!-- Icona TripAdvisor come immagine -->
-    </a>
-
-    </div></div></div>
-   
-
-
-
-
-
-
-
-    
-<!--shop con carosello immagini-->
-
-<h1 id="shop"></h1>
-<div class="titolipiccoli">
-  <h1>sʜᴏᴘ</h1>
-</div>
-<section id="info-prodotti">
-  <div class="info-container">
-    <div class="icon-container">
-      <img src="/imgs/bio.svg" alt="bio-vegan" class="product-icon">
-    </div>
-    <div class="text-container">
-      <p>Scegli uno dei nostri prodotti bio e vegan, coltivati con passione e amore a km 0. Sostenibili, freschi e genuini, sono il frutto della nostra terra, pensati per chi cerca il meglio per sé e per l'ambiente.</p>
-    </div>
-  </div>
-</section>
-
-
-<section id="gallery" class="content-box">
-  <div class="gallery-container">
-    <div class="gallery-item">
-      <img src="/imgs/prugne.jpg" alt="prugna">
-      <p class="product-description">Dal sapore autentico e genuino, questa marmellata di prugne è perfetta per accompagnare pane tostato o formaggi stagionati</p>
-      <p class="product-price">€4.50 | 250g</p> <!-- Prezzo -->
-      <a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
-    </div>
-    <div class="gallery-item">
-      <img src="/imgs/arance.jpg" alt="arance">
-      <p class="product-description">Un’esplosione di gusto agrumato, ideale per la colazione o per dare un tocco speciale ai dolci fatti in casa.</p>
-      <p class="product-price">€4.50 | 250g <br>
-        €5.50 | 350g
-      </p> <!-- Prezzo -->
-      <a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
-    </div>
-    <div class="gallery-item">
-      <img src="/imgs/cipolletropea.jpg" alt="Cipolle">
-      <p class="product-description">Dolce e delicata, perfetta per arricchire taglieri di salumi e formaggi o come condimento per carni saporite.</p>
-      <p class="product-price">€5.00 | 250g</p> <!-- Prezzo -->
-      <a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
-    </div>
-    <div class="gallery-item">
-      <img src="/imgs/pere e cioccolato.jpg" alt="pere e cioccolato">
-      <p class="product-description">Un abbinamento irresistibile tra la dolcezza delle pere e la golosità del cioccolato fondente...</p>
-      <p class="product-price">€5.00 | 250g</p> <!-- Prezzo -->
-      <a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
-    </div>
-    <div class="gallery-item">
-      <img src="/imgs/zafferano.jpg" alt="zafferano">
-      <p class="product-description">Un’esclusiva selezione di prodotti aromatizzati allo zafferano, tra cui miele, liquore e altre specialità, per un’esperienza di gusto unica.</p>
-      <p class="product-price">A partire da €7.00</p> <!-- Prezzo -->
-      <a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
-    </div>
-  </div>
-</section>
+	<div class="burger-container">
+	  <button class="burger-menu" id="burger-menu">☰</button>
+	</div>
+  
+	<div class="navigazione-side" id="menu-mobile">
+	  <ul>
+		<li><a href="#chisiamo" class="collegamenti">Chi siamo</a></li>
+		<li><a href="#shop" class="collegamenti">Shop</a></li>
+		<li><a href="#dovesiamo" class="collegamenti">Dove Trovarci</a></li>
+		<li><a href="#comecontattarci" class="collegamenti">Contatti</a></li>
+		<li><a href="javascript:void(0)" id="carrelloBtn"><img src="imgs/carrello.svg" alt="Carrello"></a></li>
+	  </ul>
+	</div>
+  
+	<div class="carrello-side" id="carrello">
+	  <ul>
+		<li><a href="#carrello">Riepilogo</a></li>
+		<li><a href="#checkout">Procedi al checkout</a></li>
+	  </ul>
+	</div>
+  </nav>
 
 
 
+  <section id="benvenuto">
+	<div class="container">
+	  <div class="image-container">
+		<img src="imgs/immagine1.jpg" alt="Immagine agriturismo">
+	  </div>
+	  <div class="text">
+		<h1 class="sottotitoli"style="font-size: 40px">Benvenuti all'Agriturismo</h1>
+		<p class="testo">Scopri un’oasi di tranquillità immersa nel cuore della natura, dove ogni momento è dedicato al relax e al piacere dei sensi. Vivrai esperienze uniche, lontano dal ritmo frenetico della città, tra paesaggi rigeneranti e sapori autentici. Accoglienti spazi confortevoli ti avvolgeranno in un’atmosfera di puro benessere, mentre la nostra cucina celebra la tradizione locale con piatti genuini preparati con ingredienti freschi e selezionati.</p>
+	  </div>
+	</div>
+  </section>
 
 
 
+  <h1 class="sottotitoli"style="color: white;background-color: rgb(72, 94, 77);padding: 10px; border-radius: 5px;">CHI SIAMO</h1>
 
-
-
-
-
-  <!--mappa-->
-<h1 id="dovesiamo"></h1>
-<div class="titolipiccoli2">
-<h1>ᴠɪᴇɴɪ ᴀ ᴛʀᴏᴠᴀʀᴄɪ!</h1></div>
-<div class="text2">
-<p>
-	Ci trovi a Biella, Via alla Fucina, 1, 13856 Vigliano Biellese. <br> (strada sterrata dopo la Bennet)
-</p> </div>
-<div class="centro">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.9492359648484!2d8.131984441371038!3d45.55134672773942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47862390d228dc51%3A0x39feb1949b44f0e3!2sAgriturismo%20La%20Fucina!5e0!3m2!1sit!2sit!4v1715611922598!5m2!1sit!2sit" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+  <section id="about-us">
+	<div class="overlay">
+	  
+	  
+	  <div class="contenuto chiaro">
+		<p>
+		  Dal momento della nostra fondazione nel 2014, ci siamo impegnati a creare uno spazio di tranquillità dove la natura, gli animali e l'aria fresca si fondono armoniosamente. <br><br>
+		  Il nostro obiettivo principale è quello di offrire ai nostri ospiti qualità e freschezza in ogni aspetto della loro esperienza presso di noi. <br><br>
+		  Siamo fieri di offrire un rifugio lontano dal trambusto della vita quotidiana, dove puoi rigenerarti e riconnetterti con la bellezza e la serenità che solo la campagna può offrire. <br><br>
+		  Vieni a trovarci e lasciati avvolgere dall'autentica atmosfera dell'Agriturismo, dove la semplicità e l'amore per la vita contadina si fondono per creare ricordi indelebili. <br><br>
+		  Leggi le nostre recensioni per farti ispirare o lasciacene una per aiutarci a migliorare!
+		</p>
+  
+		<a href="https://www.tripadvisor.it/Restaurant_Review-g3671034-d3982629-Reviews-La_Fucina-Vigliano_Biellese_Province_of_Biella_Piedmont.html" target="_blank">
+		  <img src="imgs/tripadvisor.svg" alt="TripAdvisor" class="tripadvisor-logo">
+		</a>
+	  </div>
+	</div>
+  </section>
+  
+  <section id="shop">
+	<h1 class="sottotitoli"style="color: white;background-color: rgb(72, 94, 77);padding: 10px; border-radius: 5px;">SHOP</h1>
 	
 
 
-
-
-
-<!--box contatti e icone-->
-<h1 id="comecontattarci"></h1>
-<div class="titolipiccoli2">
-<h1>ᴄᴏɴᴛᴀᴛᴛɪ</h1></div>
-
-
-<section id="info-prodotti">
-  <div class="info-container">
+	  <div class="info-container">
+		<div class="icon-container">
+		  <img src="imgs/bio.svg" alt="bio-vegan" class="product-icon">
+		</div>
+		<div class="text-container">
+		  <p class="testo">Scegli uno dei nostri prodotti bio e vegan, coltivati con passione e amore a km 0. Sostenibili, freschi e genuini, sono il frutto della nostra terra, pensati per chi cerca il meglio per sé e per l'ambiente.</p>
+		</div>
+	  </div>
+	
   
-      <div class="icon-container">
-         <a href="https://www.instagram.com/agriturismolafucina/"><img src="/imgs/instagram.svg"width="50" height="50" alt="Instagram" class="product-icon"></a></div>
-
-      <div class="text-container">
-        <p>Contattaci per scoprire di più sui nostri prodotti genuini e artigianali! Siamo felici di rispondere alle tue domande o di personalizzare i tuoi ordini. Puoi scriverci direttamente su Instagram oppure compilare il modulo contatti in fondo alla pagina: ti risponderemo al più presto!</p>
-      </div></div>
-      
-
-
-<div class="contact-box">
-  <div class="text">
-  <h2>Modulo Contatti</h2>
-  <form action="#" method="post">
-    <input type="text" name="name" placeholder="Nome">
-    <input type="text" name="surname" placeholder="Cognome">
-    <input type="text" name="phone" placeholder="Numero di telefono o e-mail">
-    <textarea name="message" placeholder="Di cosa hai bisogno?"></textarea>
-    <input type="submit" value="Invia">
-  </form>
-</div></div>
-
-
-
-
-
-
-<div id="cookie-popup" class="cookie-popup">
-  <p>Questo sito utilizza cookie per migliorare l'esperienza dell'utente. Continuando a navigare, accetti l'utilizzo dei cookie. <a href="/privacy-policy.html">Leggi di più</a></p>
-  <button id="accept-cookies" class="cookie-btn">Accetta</button>
-  <button id="decline-cookies" class="cookie-btn">Rifiuta</button>
-</div>
-
-
-</body>
-
-<!--copyright-->
-<div class="text2"><h3>Agriturismo la Fucina 
+	<div class="shop-container">
+	  <div class="shop-item">
+		<img src="imgs/prugne.jpg" alt="prugna">
+		<p class="testo">Dal sapore autentico e genuino, questa marmellata di prugne è perfetta per accompagnare pane tostato o formaggi stagionati.</p>
+		<p class="product-price">€4.50 | 250g</p>
+		<a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
+	  </div>
   
-  2025</h3>
- &copy; Copyright - Tutti i diritti riservati</div>
+	  <div class="shop-item">
+		<img src="imgs/arance.jpg" alt="arance">
+		<p class="testo">Un’esplosione di gusto agrumato, ideale per la colazione o per dare un tocco speciale ai dolci fatti in casa.</p>
+		<p class="product-price">€4.50 | 250g <br> €5.50 | 350g</p>
+		<a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
+	  </div>
+  
+	  <div class="shop-item">
+		<img src="imgs/cipolletropea.jpg" alt="Cipolle">
+		<p class="testo">Dolce e delicata, perfetta per arricchire taglieri di salumi e formaggi o come condimento per carni saporite.</p>
+		<p class="product-price">€5.00 | 250g</p>
+		<a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
+	  </div>
+  
+	  <div class="shop-item">
+		<img src="imgs/pere e cioccolato.jpg" alt="pere e cioccolato">
+		<p class="testo">Un abbinamento irresistibile tra la dolcezza delle pere e la golosità del cioccolato fondente...</p>
+		<p class="product-price">€5.00 | 250g</p>
+		<a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
+	  </div>
+  
+	  <div class="shop-item">
+		<img src="imgs/zafferano.jpg" alt="zafferano">
+		<p class="testo">Un’esclusiva selezione di prodotti aromatizzati allo zafferano, tra cui miele, liquore e altre specialità, per un’esperienza di gusto unica.</p>
+		<p class="product-price">A partire da €7.00</p>
+		<a href="#carrello" class="aggiungi-carrello">Aggiungi al carrello</a>
+	  </div>
+	</div>
+  </section>
 
 
-</html>
+  
+  <section id="dovesiamo">
+	<h1 class="sottotitoli" style="color: white; background-color: rgb(72, 94, 77); padding: 10px; border-radius: 5px;">VIENI A TROVARCI!</h1>
+  
+
+		<p class="testo">
+		Ci trovi a Biella, Via alla Fucina, 1, 13856 Vigliano Biellese. <br> (strada sterrata dopo la Bennet)
+	  </p>
+	
+  
+	<div class="mappa-container">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.9492359648484!2d8.131984441371038!3d45.55134672773942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47862390d228dc51%3A0x39feb1949b44f0e3!2sAgriturismo%20La%20Fucina!5e0!3m2!1sit!2sit!4v1715611922598!5m2!1sit!2sit" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+  </section>
+  
+ 
+  <section id="comecontattarci">
+	<h1 class="sottotitoli" style="color: white; background-color: rgb(72, 94, 77); padding: 10px; border-radius: 5px;">CONTATTI</h1>
+  
+	<div class="info-container">
+	  <div class="icon-container">
+		<a href="https://www.instagram.com/agriturismolafucina/">
+		  <img src="imgs/instagram.svg" width="50" height="50" alt="Instagram" class="product-icon">
+		</a>
+	  </div>
+	  <div class="text-container">
+		<p class="testo">Contattaci per scoprire di più sui nostri prodotti genuini e artigianali! Siamo felici di rispondere alle tue domande o di personalizzare i tuoi ordini. Puoi scriverci direttamente su Instagram oppure compilare il modulo contatti in fondo alla pagina: ti risponderemo al più presto!</p>
+	  </div>
+	</div>
+  
+	<div class="contact-box">
+	  <h2 class="sottotitoli">Modulo Contatti</h2>
+	  <form action="#" method="post">
+		<input type="text" name="name" placeholder="Nome">
+		<input type="text" name="surname" placeholder="Cognome">
+		<input type="text" name="phone" placeholder="Numero di telefono o e-mail">
+		<textarea name="message" placeholder="Di cosa hai bisogno?"></textarea>
+		<input type="submit" value="Invia">
+	  </form>
+	</div>
+  </section>
+  
+
+
+  <div id="cookie-popup" class="cookie-popup">
+	<p>Questo sito utilizza cookie per migliorare l'esperienza dell'utente. Continuando a navigare, accetti l'utilizzo dei cookie. <a href="/privacy-policy.html">Leggi di più</a></p>
+	<button id="accept-cookies" class="cookie-btn">Accetta</button>
+	<button id="decline-cookies" class="cookie-btn">Rifiuta</button>
+  </div>
+
+   
+  <footer>
+	<div class="footer-container">
+	  <p class="testo"style="color:white">P.IVA 038299919</h3>
+	  <p>&copy; Copyright - Agriturismo La Fucina 2025 - Tutti i diritti riservati</p>
+	</div>
+  </footer>
+ </body>
+   </html>
+
+
