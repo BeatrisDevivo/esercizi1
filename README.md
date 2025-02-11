@@ -9,11 +9,11 @@ L’obiettivo è stato quello di **creare un’interfaccia accogliente e moderna
 
 Il sito è **completamente responsive**, quindi perfettamente navigabile sia su **computer, tablet e smartphone**.  
 
-➡️ **Link al sito**: [Agriturismo La Fucina](https://legendary-wisp-c78ce4.netlify.app/)  
+➡ **Link al sito**: [Agriturismo La Fucina](https://legendary-wisp-c78ce4.netlify.app/)  
 
 ---
 
-### **🛠️ Strumenti Utilizzati**  
+### ** Strumenti Utilizzati**  
 
 - **Visual Studio Code** – per la scrittura e la gestione del codice HTML, CSS e JavaScript  
 - **GitHub** – per il controllo delle versioni e la gestione del progetto  
@@ -22,13 +22,13 @@ Il sito è **completamente responsive**, quindi perfettamente navigabile sia su 
 
 ---
 
-### **🔍 Test e Ottimizzazione**  
+### ** Test e Ottimizzazione**  
 
 Per garantire **un’esperienza fluida e ottimizzata**, il sito è stato testato con:  
 
-✅ **Google Lighthouse** → Analisi delle prestazioni, accessibilità e SEO  
-✅ **W3C Validator** → Per verificare la qualità del codice HTML e CSS  
-✅ **Responsinator** → Test di compatibilità su schermi di diverse dimensioni  
-✅ **WebPageTest** → Analisi della velocità di caricamento e suggerimenti di ottimizzazione  
+ **Google Lighthouse** → Analisi delle prestazioni, accessibilità e SEO  
+ **W3C Validator** → Per verificare la qualità del codice HTML e CSS  
+ **Responsinator** → Test di compatibilità su schermi di diverse dimensioni  
+**WebPageTest** → Analisi della velocità di caricamento e suggerimenti di ottimizzazione  
 
 ---
