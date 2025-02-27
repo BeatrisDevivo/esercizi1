@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 480px) {
 	.logo img {
-		width: 200px;
+		width: 250px;
 	}
 }
   
@@ -529,6 +529,10 @@
 	}
 	  .image-container img {
 		  width:80%;
+		  flex: 1;
+	max-width: 50%;
+	overflow: hidden;
+	border-radius: 10px;
   }
   @media screen and (max-width: 480px) {
 	#benvenuto {
@@ -547,7 +551,11 @@
 		font-size: 14px;
 	}
 	    .image-container img {
-		  width:60%;
+		  width:75%;
+		    flex: 1;
+	max-width: 50%;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
 
