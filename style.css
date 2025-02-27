@@ -142,7 +142,7 @@ h1 {
   
 @media screen and (max-width: 768px) {
 	.logo img {
-		width: 250px;
+		width: 450px;
 	}
   
 	.centro {
@@ -156,7 +156,7 @@ h1 {
 
 @media screen and (max-width: 480px) {
 	.logo img {
-		width: 150px;
+		width: 250px;
 	}
 }
   
