@@ -21,7 +21,7 @@
 	margin:auto;
   }
   .sottotitoli {
-	font-size: 1.5rem;
+	font-size: 24 px;
 	color: rgb(72, 94, 77);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -38,7 +38,12 @@
 	border-radius: 5px;
 	margin-bottom: 20px;
   }
-
+h1 {
+	color:rgb(72, 94, 77) ;
+	text-align: center;
+	font-family: "DM Sans", serif;
+	font-size: 30px;
+}
 
   .collegamenti {
 	font-size: 1rem;
@@ -77,6 +82,9 @@
 
 	.collegamenti {
 		font-size: 12px;
+	}
+	h1 {
+		font-size: 24px;
 	}
 }
 
@@ -147,7 +155,7 @@
 
 @media screen and (max-width: 480px) {
 	.logo img {
-		width: 250px;
+		width: 150px;
 	}
 }
   
@@ -475,9 +483,6 @@
 
 
 
-
-
-
   #benvenuto {
 	display: flex;
 	align-items: center;
@@ -527,12 +532,6 @@
 	.image-container, .text {
 	  max-width: 100%;
 	}
-	  .image-container img {
-		  width:80%;
-		  flex: 1;
-	max-width: 50%;
-	overflow: hidden;
-	border-radius: 10px;
   }
   @media screen and (max-width: 480px) {
 	#benvenuto {
@@ -550,12 +549,6 @@
 	.text {
 		font-size: 14px;
 	}
-	    .image-container img {
-		  width:75%;
-		    flex: 1;
-	max-width: 50%;
-	overflow: hidden;
-	border-radius: 10px;
 }
 
 
@@ -983,7 +976,7 @@
 	}
 
 	.contact-box {
-		max-width: 50%;
+		max-width: 65%;
 		padding: 10px;
 		margin: 20px auto;
 	}
