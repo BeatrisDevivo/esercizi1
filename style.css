@@ -475,6 +475,9 @@
 
 
 
+
+
+
   #benvenuto {
 	display: flex;
 	align-items: center;
@@ -524,6 +527,8 @@
 	.image-container, .text {
 	  max-width: 100%;
 	}
+	  .image-container img {
+		  width:80%;
   }
   @media screen and (max-width: 480px) {
 	#benvenuto {
@@ -541,6 +546,8 @@
 	.text {
 		font-size: 14px;
 	}
+	    .image-container img {
+		  width:60%;
 }
 
 
