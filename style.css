@@ -18,6 +18,7 @@
 	line-height: 1.6;
 	font-family:  "DM Sans", serif;
 	text-align: center;
+	margin:auto;
   }
   .sottotitoli {
 	font-size: 1.5rem;
@@ -26,6 +27,16 @@
 	text-transform: uppercase;
 	font-family:  "DM Sans", serif;
 	text-align: center;
+  }
+
+  h2 {
+	color: #f8f8f8;
+	background-color: rgb(72, 94, 77);
+	text-align: center;
+	font-family: "DM Sans", serif;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
   }
 
 
@@ -136,7 +147,7 @@
 
 @media screen and (max-width: 480px) {
 	.logo img {
-		width: 200px;
+		width: 150px;
 	}
 }
   
@@ -311,7 +322,6 @@
 .navigazione ul li a {
 	color: white;
 	text-decoration: none;
-	font-weight: bold;
 	padding: 10px;
 	transition: color 0.3s ease;
 }
@@ -402,7 +412,13 @@
 	display: block;
 	padding: 10px;
 }
-  
+ 
+.carrello-side ul li a:hover{
+	cursor: pointer;
+	color: #ffdd57;
+}
+
+
 .carrello-side.show {
 	right: 0px;
 }
@@ -525,9 +541,6 @@
 	.text {
 		font-size: 14px;
 	}
-	  image-container img{
-		  max-width: 80%;
-	  }
 }
 
 
@@ -541,7 +554,7 @@
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -601,7 +614,7 @@
   @media screen and (max-width: 480px) {
 	#about-us {
 		padding: 40px 10px;
-	
+		
 	}
   
 	.overlay {
@@ -783,14 +796,14 @@
 
 
   #dovesiamo {
-	text-align: center;
-	padding: 40px 20px;
+	padding: 20px 20px;
   }
   
  
   .mappa-container {
 	max-width: 800px;
 	margin: 0 auto;
+	margin-top: 40px;
 	border-radius: 10px;
 	overflow: hidden;
   }
@@ -955,7 +968,7 @@
 	}
 
 	.contact-box {
-		max-width: 80%;
+		max-width: 50%;
 		padding: 10px;
 		margin: 20px auto;
 	}
