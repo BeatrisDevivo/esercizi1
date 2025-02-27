@@ -423,7 +423,7 @@
 	display: inline-block;
 }
 
-/* MEDIA QUERY PER 768px: Nasconde la navigazione e mostra il burger menu */
+
 @media screen and (max-width: 768px) {
 	.navigazione {
 		display: none;
@@ -598,6 +598,7 @@
   @media screen and (max-width: 480px) {
 	#about-us {
 		padding: 40px 10px;
+		background-attachment: scroll;
 	}
   
 	.overlay {
@@ -951,7 +952,7 @@
 	}
 
 	.contact-box {
-		max-width: 100%;
+		max-width: 50%;
 		padding: 10px;
 		margin: 20px auto;
 	}
