@@ -577,7 +577,7 @@
   
   @media screen and (max-width: 768px) {
 	#about-us {
-	  background-attachment: scroll;
+
 	  height: auto;
 	  padding: 60px 0;
 	}
@@ -598,7 +598,7 @@
   @media screen and (max-width: 480px) {
 	#about-us {
 		padding: 40px 10px;
-		background-attachment: scroll;
+	
 	}
   
 	.overlay {
