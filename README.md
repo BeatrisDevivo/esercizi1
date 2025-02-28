@@ -42,7 +42,7 @@ Per garantire **un’esperienza fluida e ottimizzata**, il sito è stato testato
 
 ---
 
-###Caratteristiche principali:
+### Caratteristiche principali:
 - Sito monopagina
 - Layout Responsive
  Header 
