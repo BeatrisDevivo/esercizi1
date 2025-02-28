@@ -33,3 +33,24 @@ Per garantire **un’esperienza fluida e ottimizzata**, il sito è stato testato
 **Test SEO**→ Per migliorare il posizionamento nei motori di ricerca
 
 ---
+
+
+###  File utilizzati
+**index.html**: Attraverso marcatori descrivo la struttura del sito.
+**Style.css**: Descrive gli elementi di pagina, rendde il sito più accattivante
+**script.js**: Linguaggio di programmazione multi-paradigma orientato agli eventi, per la creazione di effetti dinamici.
+
+---
+
+###Caratteristiche principali:
+- Sito monopagina
+- Layout Responsive
+ Header 
+- Menù per schermi grandi
+- Burger Menù per schermi piccoli
+- Sezione Benvenuto
+- Sezione About us
+- Sezione Shop
+- Sezione Dove trovarci
+- Sezione Come contattarci
+- Footer con P.IVA e copyright
