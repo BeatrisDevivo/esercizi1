@@ -2,7 +2,7 @@
 **N.° Matricola: 972**  
 **Progettazione Web 2023/2024**  
 
-### 🌿 Sito: Agriturismo La Fucina**  
+###  Sito Aziendale: Agriturismo La Fucina
 Il sito web dell’**Agriturismo La Fucina** è stato progettato per offrire agli utenti un’esperienza chiara e intuitiva, permettendo loro di scoprire facilmente **chi siamo, cosa offriamo e come raggiungerci**.  
 
 L’obiettivo è stato quello di **creare un’interfaccia accogliente e moderna**, che mettesse in evidenza **la filosofia dell'agriturismo**, basata sulla tradizione, la genuinità e il contatto con la natura.  
