@@ -41,8 +41,12 @@ Per garantire **un’esperienza fluida e ottimizzata**, il sito è stato testato
 
 ###  File utilizzati
 **index.html**: Attraverso marcatori descrivo la struttura del sito.
+
 **Style.css**: Descrive gli elementi di pagina, rendde il sito più accattivante
+
 **script.js**: Linguaggio di programmazione multi-paradigma orientato agli eventi, per la creazione di effetti dinamici.
+
+***IMGs***: Cartella delle immagini
 
 ---
 
