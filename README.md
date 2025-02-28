@@ -15,7 +15,7 @@ L’obiettivo è stato quello di **creare un’interfaccia accogliente e moderna
 
 ###  Strumenti Utilizzati
 
-- **Visual Studio Code** – per la scrittura e la gestione del codice HTML, CSS e JavaScript  
+- **VSCodium** – per la scrittura e la gestione del codice HTML, CSS e JavaScript  
 - **GitHub** – per il controllo delle versioni e la gestione del progetto  
 - **Netlify** – per la pubblicazione e l’hosting del sito  
 - **CodePen** – per testare snippet di codice e migliorare l’esperienza utente  
@@ -26,9 +26,10 @@ L’obiettivo è stato quello di **creare un’interfaccia accogliente e moderna
 
 Per garantire **un’esperienza fluida e ottimizzata**, il sito è stato testato con:  
 
- **Google Lighthouse** → Analisi delle prestazioni, accessibilità e SEO  
+ **GTMetrix** → Analisi delle prestazioni e della velocità di caricamento 
  **W3C Validator** → Per verificare la qualità del codice HTML e CSS  
  **Responsinator** → Test di compatibilità su schermi di diverse dimensioni  
-**WebPageTest** → Analisi della velocità di caricamento e suggerimenti di ottimizzazione  
+**Page Speed Insight** → Analisi della velocità di caricamento e suggerimenti di ottimizzazione  
+**Test SEO**→ Per migliorare il posizionamento nei motori di ricerca
 
 ---
